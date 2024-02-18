@@ -1,0 +1,61 @@
+.main-1{
+    /* background-color: blue; */
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#signUp{
+    /* background-color: brown;*/
+    color: white;
+    height: 10vh;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: white 5px solid;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: large;
+}
+
+#signUp:hover{
+    animation: change 0.5s ease forwards;
+}
+
+@keyframes change{
+    0%{
+        background-color: rgb(102, 95, 95);
+        color: black;
+        border: 1px dashed rgb(224, 210, 175);
+        transform: translateX(0px);
+        width: 17%;
+        height: 10vh;
+    }
+    30%{
+        background-color: rgb(102, 95, 95);
+        color: black;
+        border: 2px solid rgb(224, 210, 175);
+        transform: translateX(10px);
+        width: 19%;
+        height: 12vh;
+    }
+    70%{
+        background-color: rgb(151, 142, 142);
+        color: black;
+        border: 3.5px solid rgb(224, 210, 175);
+        transform: translateX(20px);
+        width: 21%;
+        height: 14vh;
+    }
+    100%{
+        background-color: white;
+        color: black;
+        border: 5px solid rgb(224, 210, 175);
+        transform: translateX(30px);
+        width: 23%;
+        height: 16vh;
+    }
+}
