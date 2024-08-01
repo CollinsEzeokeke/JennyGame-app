@@ -6,6 +6,8 @@ function App() {
     <div>
       <div>
         <PAGES/>
+
+        Hello world
         <HOME/>
       </div>
     </div>
